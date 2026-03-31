@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
+    />
+    <script type="module" crossorigin src="/js/index-001ea146.js"></script>
+    <link rel="stylesheet" href="/css/antd-mobile-ff1ed62f.css">
+    <link rel="stylesheet" href="/css/index-c72cccf8.css">
+    <title>999 Pay</title>
+  </head>
+  <body>
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js',
+      );
+      fbq('init', '1413167480165536');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1413167480165536&ev=PageView&noscript=1"
+      />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <div id="root"></div>
+    <style>
+      .page-invitation1 > .adm-button.download-button {
+        display: none !important;
+      }
+      .download-btn-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+      }
+      .download-btn {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background: url(/assets/download-button-f0aae299.webp) no-repeat;
+        background-size: 100% 100%;
+        cursor: pointer;
+        border: none;
+        transition: all .8s cubic-bezier(.68,-.55,.265,1.55);
+      }
+      .download-btn:active {
+        transform: scale(0.93);
+      }
+    </style>
+    <div class="download-btn-container">
+      <a class="download-btn" href="/999Pay_6.0.1.1.apk" download></a>
+    </div>
+  </body>
+</html>
